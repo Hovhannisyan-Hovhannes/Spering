@@ -1,0 +1,54 @@
+.G-flex {
+    display: flex;
+}
+
+.G-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.G-align-start {
+    display: flex;
+    align-items: start;
+}
+
+.G-align-end {
+    display: flex;
+    align-items: end;
+}
+
+.G-justify-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.G-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.G-justify-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.G-justify-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.G-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.G-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.G-direction-column {
+    display: flex;
+    flex-direction: column;
+}
