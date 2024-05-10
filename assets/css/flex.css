@@ -39,6 +39,11 @@
 .G-justify-space-around{
     display: flex;
     justify-content: space-around;
+    
+}
+.G-justify-space-evenly{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .G-flex-wrap {
