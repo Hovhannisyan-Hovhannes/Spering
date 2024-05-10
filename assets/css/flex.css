@@ -36,12 +36,19 @@
     display: flex;
     justify-content: space-between;
 }
+.G-justify-space-around{
+    display: flex;
+    justify-content: space-around;
+}
 
 .G-flex-wrap {
     display: flex;
     flex-wrap: wrap;
 }
-
+.G-flex-wrap-revers{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
 .G-center {
     display: flex;
     align-items: center;
