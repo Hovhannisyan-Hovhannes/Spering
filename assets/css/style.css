@@ -189,6 +189,7 @@ h4{
     padding: 20px;
 }
 ul li{
+    
     list-style-type: none;
     line-height: 30px;
 }
@@ -197,4 +198,40 @@ ul li{
     text-decoration: none;
     margin: 20px;
 
+}
+.blank h6{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blank p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    height: 200px;
+}
+.blank button{
+    margin: 15px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    margin: 15px;
+
+}
+.icons{
+    gap: 20px;
+}
+.icons img{
+    width: 32px;
+    height: 32px;
+}
+.icons p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.end{
+    margin: 20px;
 }
