@@ -56,7 +56,6 @@ h3{
 
 h5{
     border-bottom: 1px solid;
-    border-bottom: ;
     color: white;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -180,7 +179,7 @@ h4{
     width: 24px;
     height: 24px;
 }
-.icon{
++.icon{
     padding: 10px;
     gap: 15px;
 }
