@@ -1,45 +1,64 @@
-@media (max-width: 1200px) {
-.container,.header-block,.images,.beayti,.beaytif, .photo-block, .block, .history-block, .header,.head, .biography,.footer-block{
-    flex-direction: column;
-    justify-content: center;
-}
-.header-block{
-    width: 100%;
-}
+@media all and(max-width: 1300px) {
+    
+
+
 
 }
 
 
-@media (max-width: 991px) {
-    .container,.header-block,.images,.beayti,.beaytif .photo-block, .block, .history-block, .header,.head, .biography,.footer-block{
-        flex-direction: column;
-        justify-content: center;
+@media all and (max-width: 1220px) {
+    .header-block,.photo{
+        width: 100%;  
+
+    
     
     }
-    .header-block{
-        width: 100%;
-    }
+    
   
 }
 
 
-@media (max-width: 767px) {
-    .container, .header-block,.images,.beayti,.beaytif .photo-block, .block, .history-block, .header,.head, .biography,.footer-block{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .header-block{
+@media all and(max-width:991px) {
+    .header-block,.photo,.footer-block{
         width: 100%;
+    
     }
 }
 
-@media (max-width: 576px) {
-    .container,.header-block,.images,.beayti,.beaytif, .photo-block, .block, .history-block, .header,.head, .biography,.footer-block{
+@media all and (max-width: 850px) {
+    .header-block,.photo,.footer-block{
+        width: 100%;
         flex-direction: column;
+    }
+    .blank {
+        text-align: center;
         justify-content: center;
     }
-    .header-block{
-        width: 100%;
-    }
+
+  
+    
+}
+@media all and (max-width: 597px) {
+    .header-block,.photo,.biography,.footer-block {
+    width: 100%;
+    flex-direction: column;
+    
+    
+    
+}
+.biography{
+    height: 400px;
+}
+
+}
+@media all and (max-width: 370px) {
+    .header-block,.photo,.biography,.footer-block{
+    width: 100%;
+    flex-direction: column;
+
+
+    
+}
+
 
 }

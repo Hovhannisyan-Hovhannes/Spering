@@ -6,8 +6,11 @@
 }
 
 .container{
-    max-width: 1900px;
-    margin-top: 20px;
+    max-width: 1700px;
+    width: 100%;
+    margin:0 auto;
+    padding: 0 15px;
+
 }
 
 
@@ -25,6 +28,7 @@
     width: 32px;
     height: 32px;   
 }
+
 .history{
     color: white;
     text-align: center;
@@ -33,25 +37,28 @@
 }
 h1{
     color: white;
-}
-h2{
-    color: white;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     margin: 50px;
     padding:0 50px;
 }
-
-h3{
-    font-size: 30px; 
-    padding: 20px 0; 
-
+.header-block h2{
+    color: white;
 }
-.text {
+
+.freelancer p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
+    padding: 10px;
     
-    
+       
+}
+.freelancer h3{
+    margin-top: 150px;
+    text-align: start;
+    font: size 30px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:10px;
 }
 
 h5{
@@ -81,7 +88,7 @@ h6{
     height: 500px;
 }
 .photos-block img{
-    width: 775px;
+    width: 500px;;
     height: 500px;
 }
 button{
@@ -166,7 +173,7 @@ h4{
     border-radius: 15px;
     margin: 40px;
     padding: 20px;
-    width: 700px;
+    width: 600px;
     height: 250px;
 }
 .footer-block{
@@ -179,7 +186,7 @@ h4{
     width: 24px;
     height: 24px;
 }
-+.icon{
+.icon{
     padding: 10px;
     gap: 15px;
 }
@@ -219,14 +226,24 @@ input{
     margin: 15px;
 
 }
+.footer-block h2{
+    color: white;
+}
+.footer-block img{
+    width: 32px;
+    height: 32px;
+}
 .icons{
+    margin-top: 20px;
     gap: 20px;
 }
 .icons img{
     width: 32px;
     height: 32px;
 }
+
 .icons p{
+    
     color: white;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
