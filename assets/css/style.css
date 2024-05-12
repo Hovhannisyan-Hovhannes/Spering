@@ -15,6 +15,7 @@
 
 
 .header-block{
+    margin-top: 15px;
     width: 50%;
     height: 500px;
     flex-direction: column;
@@ -176,6 +177,10 @@ h4{
     width: 600px;
     height: 250px;
 }
+.beography img{
+    widows: 32px;
+    height: 32px;
+}
 .footer-block{
     width: 100%;
     padding: 50px;
@@ -185,6 +190,7 @@ h4{
     color: white;
     width: 24px;
     height: 24px;
+
 }
 .icon{
     padding: 10px;
@@ -238,8 +244,8 @@ input{
     gap: 20px;
 }
 .icons img{
-    width: 32px;
-    height: 32px;
+    width: 16px;
+    height: 16px;
 }
 
 .icons p{

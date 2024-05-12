@@ -1,8 +1,5 @@
 @media all and(max-width: 1300px) {
     
-
-
-
 }
 
 
@@ -10,8 +7,6 @@
     .header-block,.photo{
         width: 100%;  
 
-    
-    
     }
     
   
@@ -28,37 +23,40 @@
 @media all and (max-width: 850px) {
     .header-block,.photo,.footer-block{
         width: 100%;
+        display: flex;
         flex-direction: column;
+        justify-content:center;
+        
     }
-    .blank {
-        text-align: center;
-        justify-content: center;
-    }
-
-  
+    
     
 }
 @media all and (max-width: 597px) {
     .header-block,.photo,.biography,.footer-block {
     width: 100%;
     flex-direction: column;
-    
-    
-    
+       
 }
 .biography{
     height: 400px;
 }
+.beayti{
+    text-align: center;
+}
+
 
 }
 @media all and (max-width: 370px) {
     .header-block,.photo,.biography,.footer-block{
     width: 100%;
-    flex-direction: column;
-
-
-    
+    flex-direction: column; 
+    bottom: 30px;    
 }
-
+.biography{
+    height: 800px;
+}
+.beayti{
+    text-align: center;
+}
 
 }
